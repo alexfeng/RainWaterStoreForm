@@ -166,7 +166,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\image1.png" />
-    <None Include="Resources\image2.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
@@ -191,6 +190,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\icon.ico" />
+    <None Include="Resources\image8.png" />
     <None Include="Resources\image5.jpg" />
     <None Include="Resources\p1.bmp" />
     <None Include="Resources\image4.jpg" />

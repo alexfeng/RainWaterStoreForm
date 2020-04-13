@@ -41,8 +41,7 @@ namespace WinFormForRS
         {
             regional_soil = 0;
 
-            o_source_img  = new Bitmap(Properties.Resources.image2);
-            w_source_img = whiteProcess(o_source_img);
+            w_source_img = Properties.Resources.image8;
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
@@ -175,35 +174,6 @@ namespace WinFormForRS
                 soil_n = 5.0;
             }
             return soil_n;
-        }
-
-        public static Bitmap whiteProcess(Bitmap bmp)
-        {
-            Bitmap bm = new Bitmap(bmp.Width, bmp.Height);
-            for (int y = 0; y < bm.Height; y++)
-            {
-                for (int x = 0; x < bm.Width; x++)
-                {
-                    Color c = bmp.GetPixel(x, y);
-                    int a = c.A;
-                    int g = c.G;
-                    int b = c.B;
-                    int r = c.R;
-                    if ((90 < r && r <= 200) && (90 < g && g <= 200) && (90 < b && b <= 200))
-                    {
-                        a = 0;
-                    }
-                    else
-                    {
-                        r = 255;
-                        g = 255;
-                        b = 255;
-                    }
-                    bm.SetPixel(x, y, Color.FromArgb(c.A, r, g, b));
-                }
-            }
-
-            return bm;
         }
     }
 }

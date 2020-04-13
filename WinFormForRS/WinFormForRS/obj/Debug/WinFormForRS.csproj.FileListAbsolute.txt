@@ -18,7 +18,6 @@ C:\Users\lizhiqiang\Desktop\WinFormForRS\WinFormForRS\WinFormForRS\bin\Debug\蓄
 C:\Users\lizhiqiang\Desktop\WinFormForRS\WinFormForRS\WinFormForRS\bin\Debug\蓄水模式盐碱地整治工程蓄水沟设计软件.application
 C:\Users\lizhiqiang\Desktop\WinFormForRS\WinFormForRS\WinFormForRS\bin\Debug\蓄水模式盐碱地整治工程蓄水沟设计软件.exe
 C:\Users\lizhiqiang\Desktop\WinFormForRS\WinFormForRS\WinFormForRS\bin\Debug\蓄水模式盐碱地整治工程蓄水沟设计软件.pdb
-C:\Users\lizhiqiang\Desktop\WinFormForRS\WinFormForRS\WinFormForRS\obj\Debug\WinFormForRS.csprojAssemblyReference.cache
 C:\Users\lizhiqiang\Desktop\WinFormForRS\WinFormForRS\WinFormForRS\obj\Debug\WinFormForRS.Form1.resources
 C:\Users\lizhiqiang\Desktop\WinFormForRS\WinFormForRS\WinFormForRS\obj\Debug\WinFormForRS.Form2.resources
 C:\Users\lizhiqiang\Desktop\WinFormForRS\WinFormForRS\WinFormForRS\obj\Debug\WinFormForRS.Form3.resources
