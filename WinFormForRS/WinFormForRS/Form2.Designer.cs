@@ -80,9 +80,9 @@
             // 
             this.button3.BackColor = System.Drawing.SystemColors.Highlight;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button3.Font = new System.Drawing.Font("黑体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(339, 517);
+            this.button3.Location = new System.Drawing.Point(335, 517);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(127, 45);
             this.button3.TabIndex = 4;
@@ -105,11 +105,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("黑体", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Font = new System.Drawing.Font("黑体", 32.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label3.Location = new System.Drawing.Point(299, 91);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(216, 48);
+            this.label3.Size = new System.Drawing.Size(199, 43);
             this.label3.TabIndex = 9;
             this.label3.Text = "初始条件";
             this.label3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -117,115 +117,115 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("黑体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label4.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label4.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label4.Location = new System.Drawing.Point(98, 180);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(172, 24);
+            this.label4.Size = new System.Drawing.Size(158, 21);
             this.label4.TabIndex = 10;
             this.label4.Text = "区域面积(m²)：";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("黑体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label5.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label5.Location = new System.Drawing.Point(462, 180);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(214, 24);
+            this.label5.Size = new System.Drawing.Size(197, 21);
             this.label5.TabIndex = 11;
             this.label5.Text = "区域地下水位(m)：";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("黑体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label6.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label6.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label6.Location = new System.Drawing.Point(98, 283);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(286, 24);
+            this.label6.Size = new System.Drawing.Size(263, 21);
             this.label6.TabIndex = 12;
             this.label6.Text = "区域地下水临界深度(m)：";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("黑体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label7.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label7.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label7.Location = new System.Drawing.Point(462, 283);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(346, 24);
+            this.label7.Size = new System.Drawing.Size(318, 21);
             this.label7.TabIndex = 13;
             this.label7.Text = "设计雨量(mm)(多年平均雨量)：";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("黑体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label8.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label8.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label8.Location = new System.Drawing.Point(98, 395);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(346, 24);
+            this.label8.Size = new System.Drawing.Size(318, 21);
             this.label8.TabIndex = 14;
             this.label8.Text = "校核雨量(mm)(多年最大雨量)：";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("黑体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label9.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label9.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label9.Location = new System.Drawing.Point(462, 395);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(346, 24);
+            this.label9.Size = new System.Drawing.Size(318, 21);
             this.label9.TabIndex = 15;
             this.label9.Text = "蒸发量(mm)(多年平均蒸发量)：";
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox1.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox1.Location = new System.Drawing.Point(98, 214);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(234, 35);
+            this.textBox1.Size = new System.Drawing.Size(234, 31);
             this.textBox1.TabIndex = 16;
             // 
             // textBox2
             // 
-            this.textBox2.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox2.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox2.Location = new System.Drawing.Point(462, 214);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(234, 35);
+            this.textBox2.Size = new System.Drawing.Size(234, 31);
             this.textBox2.TabIndex = 17;
             // 
             // textBox3
             // 
-            this.textBox3.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox3.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox3.Location = new System.Drawing.Point(98, 320);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(234, 35);
+            this.textBox3.Size = new System.Drawing.Size(234, 31);
             this.textBox3.TabIndex = 18;
             // 
             // textBox4
             // 
-            this.textBox4.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox4.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox4.Location = new System.Drawing.Point(462, 320);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(234, 35);
+            this.textBox4.Size = new System.Drawing.Size(234, 31);
             this.textBox4.TabIndex = 19;
             // 
             // textBox5
             // 
-            this.textBox5.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox5.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox5.Location = new System.Drawing.Point(98, 430);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(234, 35);
+            this.textBox5.Size = new System.Drawing.Size(234, 31);
             this.textBox5.TabIndex = 20;
             // 
             // textBox6
             // 
-            this.textBox6.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox6.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox6.Location = new System.Drawing.Point(462, 430);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(234, 35);
+            this.textBox6.Size = new System.Drawing.Size(234, 31);
             this.textBox6.TabIndex = 21;
             // 
             // pictureBox2

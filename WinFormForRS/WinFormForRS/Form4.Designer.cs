@@ -50,22 +50,22 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("黑体", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label2.Location = new System.Drawing.Point(98, 180);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(385, 24);
+            this.label2.Size = new System.Drawing.Size(355, 21);
             this.label2.TabIndex = 27;
             this.label2.Text = "请根据以下条件设计蓄水沟长度：";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("黑体", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Font = new System.Drawing.Font("黑体", 32.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label3.Location = new System.Drawing.Point(336, 96);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(167, 48);
+            this.label3.Size = new System.Drawing.Size(154, 43);
             this.label3.TabIndex = 26;
             this.label3.Text = "蓄水沟";
             this.label3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -74,7 +74,7 @@
             // 
             this.button3.BackColor = System.Drawing.SystemColors.Highlight;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button3.Font = new System.Drawing.Font("黑体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(451, 514);
             this.button3.Name = "button3";
@@ -88,7 +88,7 @@
             // 
             this.button2.BackColor = System.Drawing.SystemColors.Highlight;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button2.Font = new System.Drawing.Font("黑体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(250, 514);
             this.button2.Name = "button2";
@@ -116,70 +116,70 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("黑体", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label4.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label4.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label4.Location = new System.Drawing.Point(98, 340);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(110, 24);
+            this.label4.Size = new System.Drawing.Size(102, 21);
             this.label4.TabIndex = 28;
             this.label4.Text = "请输入：";
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox1.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox1.Location = new System.Drawing.Point(98, 262);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(234, 35);
+            this.textBox1.Size = new System.Drawing.Size(234, 31);
             this.textBox1.TabIndex = 30;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("黑体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label5.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label5.Location = new System.Drawing.Point(98, 228);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(190, 24);
+            this.label5.Size = new System.Drawing.Size(175, 21);
             this.label5.TabIndex = 29;
             this.label5.Text = "蓄水沟深度(m)：";
             // 
             // textBox2
             // 
-            this.textBox2.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox2.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox2.Location = new System.Drawing.Point(462, 262);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(234, 35);
+            this.textBox2.Size = new System.Drawing.Size(234, 31);
             this.textBox2.TabIndex = 32;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("黑体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label6.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label6.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label6.Location = new System.Drawing.Point(462, 228);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(190, 24);
+            this.label6.Size = new System.Drawing.Size(175, 21);
             this.label6.TabIndex = 31;
             this.label6.Text = "蓄水沟间距(m)：";
             // 
             // textBox3
             // 
-            this.textBox3.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox3.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox3.Location = new System.Drawing.Point(98, 422);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(234, 35);
+            this.textBox3.Size = new System.Drawing.Size(234, 31);
             this.textBox3.TabIndex = 34;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("黑体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label7.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label7.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label7.Location = new System.Drawing.Point(98, 388);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(190, 24);
+            this.label7.Size = new System.Drawing.Size(175, 21);
             this.label7.TabIndex = 33;
             this.label7.Text = "蓄水沟长度(m)：";
             // 

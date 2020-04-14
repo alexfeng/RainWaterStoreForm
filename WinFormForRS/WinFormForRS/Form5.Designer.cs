@@ -54,7 +54,7 @@
             // 
             this.button3.BackColor = System.Drawing.SystemColors.Highlight;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button3.Font = new System.Drawing.Font("黑体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(362, 514);
             this.button3.Name = "button3";
@@ -68,7 +68,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button2.Font = new System.Drawing.Font("黑体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button2.ForeColor = System.Drawing.SystemColors.Highlight;
             this.button2.Location = new System.Drawing.Point(569, 514);
             this.button2.Name = "button2";
@@ -95,101 +95,101 @@
             // 
             // textBox5
             // 
-            this.textBox5.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox5.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox5.Location = new System.Drawing.Point(98, 416);
             this.textBox5.Name = "textBox5";
             this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(234, 35);
+            this.textBox5.Size = new System.Drawing.Size(234, 31);
             this.textBox5.TabIndex = 45;
             // 
             // textBox4
             // 
-            this.textBox4.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox4.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox4.Location = new System.Drawing.Point(463, 321);
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(234, 35);
+            this.textBox4.Size = new System.Drawing.Size(234, 31);
             this.textBox4.TabIndex = 44;
             // 
             // textBox3
             // 
-            this.textBox3.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox3.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox3.Location = new System.Drawing.Point(98, 321);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(234, 35);
+            this.textBox3.Size = new System.Drawing.Size(234, 31);
             this.textBox3.TabIndex = 43;
             // 
             // textBox2
             // 
-            this.textBox2.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox2.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox2.Location = new System.Drawing.Point(463, 214);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(234, 35);
+            this.textBox2.Size = new System.Drawing.Size(234, 31);
             this.textBox2.TabIndex = 42;
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox1.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox1.Location = new System.Drawing.Point(98, 214);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(234, 35);
+            this.textBox1.Size = new System.Drawing.Size(234, 31);
             this.textBox1.TabIndex = 41;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("黑体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label8.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label8.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label8.Location = new System.Drawing.Point(98, 378);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(244, 24);
+            this.label8.Size = new System.Drawing.Size(224, 21);
             this.label8.TabIndex = 40;
             this.label8.Text = "降水排泄区面积(m²)：";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("黑体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label7.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label7.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label7.Location = new System.Drawing.Point(463, 280);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(190, 24);
+            this.label7.Size = new System.Drawing.Size(175, 21);
             this.label7.TabIndex = 39;
             this.label7.Text = "蓄水沟间距(m)：";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("黑体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label6.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label6.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label6.Location = new System.Drawing.Point(98, 280);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(190, 24);
+            this.label6.Size = new System.Drawing.Size(175, 21);
             this.label6.TabIndex = 38;
             this.label6.Text = "蓄水沟深度(m)：";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("黑体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label5.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label5.Location = new System.Drawing.Point(463, 180);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(190, 24);
+            this.label5.Size = new System.Drawing.Size(175, 21);
             this.label5.TabIndex = 37;
             this.label5.Text = "蓄水沟下宽(m)：";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("黑体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label4.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label4.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label4.Location = new System.Drawing.Point(98, 180);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(190, 24);
+            this.label4.Size = new System.Drawing.Size(175, 21);
             this.label4.TabIndex = 36;
             this.label4.Text = "蓄水沟上宽(m)：";
             // 
@@ -228,11 +228,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("黑体", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Font = new System.Drawing.Font("黑体", 32.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label3.Location = new System.Drawing.Point(336, 96);
+            this.label3.Location = new System.Drawing.Point(348, 96);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(167, 48);
+            this.label3.Size = new System.Drawing.Size(154, 43);
             this.label3.TabIndex = 49;
             this.label3.Text = "蓄水沟";
             this.label3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -241,7 +241,7 @@
             // 
             this.button4.BackColor = System.Drawing.SystemColors.Highlight;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button4.Font = new System.Drawing.Font("黑体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Location = new System.Drawing.Point(155, 514);
             this.button4.Name = "button4";

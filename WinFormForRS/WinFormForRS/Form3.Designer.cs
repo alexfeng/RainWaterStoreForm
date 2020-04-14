@@ -48,7 +48,7 @@
             // 
             this.button3.BackColor = System.Drawing.SystemColors.Highlight;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button3.Font = new System.Drawing.Font("黑体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(451, 514);
             this.button3.Name = "button3";
@@ -62,7 +62,7 @@
             // 
             this.button2.BackColor = System.Drawing.SystemColors.Highlight;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button2.Font = new System.Drawing.Font("黑体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(250, 514);
             this.button2.Name = "button2";
@@ -90,20 +90,20 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("黑体", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label2.Location = new System.Drawing.Point(319, 180);
+            this.label2.Location = new System.Drawing.Point(322, 180);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(210, 24);
+            this.label2.Size = new System.Drawing.Size(186, 21);
             this.label2.TabIndex = 18;
             this.label2.Text = "请选择区域土质：";
             // 
             // button4
             // 
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("黑体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button4.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button4.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.button4.Location = new System.Drawing.Point(66, 244);
+            this.button4.Location = new System.Drawing.Point(66, 267);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(140, 140);
             this.button4.TabIndex = 19;
@@ -114,9 +114,9 @@
             // button5
             // 
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("黑体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button5.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button5.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.button5.Location = new System.Drawing.Point(252, 244);
+            this.button5.Location = new System.Drawing.Point(252, 267);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(140, 140);
             this.button5.TabIndex = 20;
@@ -127,9 +127,9 @@
             // button6
             // 
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("黑体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button6.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button6.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.button6.Location = new System.Drawing.Point(432, 244);
+            this.button6.Location = new System.Drawing.Point(432, 267);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(140, 140);
             this.button6.TabIndex = 21;
@@ -140,9 +140,9 @@
             // button7
             // 
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("黑体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button7.Font = new System.Drawing.Font("黑体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button7.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.button7.Location = new System.Drawing.Point(612, 244);
+            this.button7.Location = new System.Drawing.Point(612, 267);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(140, 140);
             this.button7.TabIndex = 22;
@@ -185,11 +185,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("黑体", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Font = new System.Drawing.Font("黑体", 32.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label3.Location = new System.Drawing.Point(316, 96);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(216, 48);
+            this.label3.Size = new System.Drawing.Size(199, 43);
             this.label3.TabIndex = 26;
             this.label3.Text = "初始条件";
             this.label3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
