@@ -34,15 +34,16 @@ namespace WinFormForRS
             string deep_h = Convert.ToString(Program.rainwater_collection_deep_H);
             string soil_n = Convert.ToString(Program.regional_soil_n);
 
-            string flood_1_S = Convert.ToString(Math.Round(Program.flooded_S * 0.3,0,MidpointRounding.AwayFromZero));
-            string flood_2_S = Convert.ToString(Math.Round(Program.flooded_S * 0.4,0,MidpointRounding.AwayFromZero));
+            string flood_1_S = Convert.ToString(Program.flooded_S1);
+            string flood_2_S = Convert.ToString(Program.flooded_S2);
+            string flood_3_S = Convert.ToString(Program.flooded_S3);
 
             label2.Text = string.Format("蓄水沟上宽(m):{0}", top_L);
             label4.Text = string.Format("蓄水沟下宽(m):{0}", bottom_L);
 
-            label5.Text = string.Format("1级降水排泄区面积(m²):{0}", flood_1_S);
-            label6.Text = string.Format("2级降水排泄区面积(m²):{0}", flood_2_S);
-            label7.Text = string.Format("3级降水排泄区面积(m²):{0}", flood_1_S);
+            label5.Text = string.Format("S3:{0}", flood_3_S);
+            label6.Text = string.Format("S2:{0}", flood_2_S);
+            label7.Text = string.Format("S1:{0}", flood_1_S);
 
             label8.Text = string.Format("降水排泄区总面积(m²):{0}", flood_S);
             label9.Text = string.Format("蓄水沟深(m):{0}", deep_h);
@@ -59,7 +60,7 @@ namespace WinFormForRS
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DialogResult dr = MessageBox.Show("是否退出？", "提示",MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            DialogResult dr = MessageBox.Show("是否退出？", "提示", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
             if (dr == DialogResult.OK)
             {
                 System.Environment.Exit(System.Environment.ExitCode);

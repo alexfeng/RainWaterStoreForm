@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="蓄水模式盐碱地整治工程蓄水沟设计软件.exe" size="3355648">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="蓄水模式盐碱地整治工程蓄水沟设计软件.exe" size="3356672">
       <assemblyIdentity name="蓄水模式盐碱地整治工程蓄水沟设计软件" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>SNcg9jYBVjkZzVNsk0ZLxG4gYmpTqgCq0g8fLwwxXjg=</dsig:DigestValue>
+        <dsig:DigestValue>tJeU3htOxq/LBYPB70vVkOHuNqBFnteJsFmUF+DbTUU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
