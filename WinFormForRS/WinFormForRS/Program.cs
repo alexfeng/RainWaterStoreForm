@@ -52,24 +52,32 @@ namespace WinFormForRS
             Application.Run(new Form1());
         }
 
+        public static void caculate_step1()
+        {
+            Program.rainwater_collection_deep_H = Program.regional_groundwater_level_deep_h + 0.5;
+            Program.rainwater_collection_space_X = Program.rainwater_collection_deep_H * 60;
+            Program.rainwater_collection_length_l = Math.Round(Program.regional_S * 10000 / Program.rainwater_collection_space_X, MidpointRounding.AwayFromZero);
+        }
+
         public static void caculate_step()
         {
+           
             Program.regional_soil_n = retrieve_soil_n(Program.regional_soil);// 计算土质系数
             // 底宽 S/H -nH
-            Program.rainwater_collection_width_bottom_L = ((Program.rainwater_collection_deep_H - Program.regional_groundwater_level_m) * Program.regional_S * 0.085 + Program.average_rainfall_a * Program.regional_S * (0.0915 + 0.085) / 1000 - Program.average_evaporation_c * Program.regional_S * 0.085 / 1000) / (Program.rainwater_collection_length_l * Program.rainwater_collection_deep_H) - Program.regional_soil_n * Program.rainwater_collection_deep_H;
+            Program.rainwater_collection_width_bottom_L = ((Program.rainwater_collection_deep_H - Program.regional_groundwater_level_m) * Program.regional_S *10000 * 0.085 + Program.average_rainfall_a * Program.regional_S * 10000 * (0.0915 + 0.085) / 1000 - Program.average_evaporation_c * Program.regional_S * 10000 * 0.085 / 1000) / (Program.rainwater_collection_length_l * Program.rainwater_collection_deep_H) - Program.regional_soil_n * Program.rainwater_collection_deep_H;
             Program.rainwater_collection_width_bottom_L = Math.Round(Program.rainwater_collection_width_bottom_L, 2, MidpointRounding.AwayFromZero);
             // 上宽 2S/H + nH -((H-m + (a-c)/100000)*8.5*S + a*9.15*S/100000)*H/l
-            Program.rainwater_collection_width_top_L = ((Program.rainwater_collection_deep_H - Program.regional_groundwater_level_m) * Program.regional_S * 0.085 + Program.average_rainfall_a * Program.regional_S * (0.0915 + 0.085) / 1000 - Program.average_evaporation_c * Program.regional_S * 0.085 / 1000) / (Program.rainwater_collection_length_l * Program.rainwater_collection_deep_H) + Program.regional_soil_n * Program.rainwater_collection_deep_H;
+            Program.rainwater_collection_width_top_L = ((Program.rainwater_collection_deep_H - Program.regional_groundwater_level_m) * Program.regional_S * 10000 * 0.085 + Program.average_rainfall_a * Program.regional_S * 10000 * (0.0915 + 0.085) / 1000 - Program.average_evaporation_c * Program.regional_S * 10000 * 0.085 / 1000) / (Program.rainwater_collection_length_l * Program.rainwater_collection_deep_H) + Program.regional_soil_n * Program.rainwater_collection_deep_H;
             Program.rainwater_collection_width_top_L = Math.Round(Program.rainwater_collection_width_top_L, 2, MidpointRounding.AwayFromZero);
             // 淹没区面积 (b-a)*17.64/(1000*100)*S*2/3 = ((b-a)*17.64*s*2)/(1000*100*3)
 
 
             Program.flooded_S1 = ((Program.maximum_rainfall_b - Program.average_rainfall_a) * 17.64 * Program.regional_S * 5) / (1000 * 100 * 14);
-            Program.flooded_S1 = Math.Round(Program.flooded_S1, 0, MidpointRounding.AwayFromZero);
+            Program.flooded_S1 = Math.Round(Program.flooded_S1, 2, MidpointRounding.AwayFromZero);
             Program.flooded_S2 = ((Program.maximum_rainfall_b - Program.average_rainfall_a) * 17.64 * Program.regional_S * 3) / (1000 * 100 * 14);
-            Program.flooded_S2 = Math.Round(Program.flooded_S2, 0, MidpointRounding.AwayFromZero);
+            Program.flooded_S2 = Math.Round(Program.flooded_S2, 2, MidpointRounding.AwayFromZero);
             Program.flooded_S3 = ((Program.maximum_rainfall_b - Program.average_rainfall_a) * 17.64 * Program.regional_S * 2) / (1000  * 100  * 14);
-            Program.flooded_S3 = Math.Round(Program.flooded_S3, 0, MidpointRounding.AwayFromZero);
+            Program.flooded_S3 = Math.Round(Program.flooded_S3, 2, MidpointRounding.AwayFromZero);
 
             Program.flooded_S = Program.flooded_S1 + Program.flooded_S2 + Program.flooded_S3;
         }

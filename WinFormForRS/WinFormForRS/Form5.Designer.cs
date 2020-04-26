@@ -145,9 +145,9 @@
             this.label8.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label8.Location = new System.Drawing.Point(98, 378);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(224, 21);
+            this.label8.Size = new System.Drawing.Size(235, 21);
             this.label8.TabIndex = 40;
-            this.label8.Text = "降水排泄区面积(m²)：";
+            this.label8.Text = "降水排泄区面积(hm²)：";
             // 
             // label7
             // 

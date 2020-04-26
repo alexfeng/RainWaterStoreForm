@@ -121,9 +121,9 @@
             this.label4.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label4.Location = new System.Drawing.Point(98, 180);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(158, 21);
+            this.label4.Size = new System.Drawing.Size(169, 21);
             this.label4.TabIndex = 10;
-            this.label4.Text = "区域面积(m²)：";
+            this.label4.Text = "区域面积(hm²)：";
             // 
             // label5
             // 

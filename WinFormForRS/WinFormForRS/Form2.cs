@@ -84,9 +84,7 @@ namespace WinFormForRS
             Program.maximum_rainfall_b = double.Parse(textBox5.Text);
             Program.average_evaporation_c = double.Parse(textBox6.Text);
 
-            Program.rainwater_collection_deep_H = Program.regional_groundwater_level_deep_h + 0.5;
-            Program.rainwater_collection_space_X = Program.rainwater_collection_deep_H * 60;
-            Program.rainwater_collection_length_l = Math.Round(Program.regional_S / Program.rainwater_collection_space_X, MidpointRounding.AwayFromZero);
+            Program.caculate_step1();
 
             Form3 form = new Form3();
             form.Show();

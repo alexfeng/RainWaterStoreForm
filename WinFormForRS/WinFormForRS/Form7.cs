@@ -45,7 +45,7 @@ namespace WinFormForRS
             label6.Text = string.Format("S2:{0}", flood_2_S);
             label7.Text = string.Format("S1:{0}", flood_1_S);
 
-            label8.Text = string.Format("降水排泄区总面积(m²):{0}", flood_S);
+            label8.Text = string.Format("降水排泄区总面积(hm²):{0}", flood_S);
             label9.Text = string.Format("蓄水沟深(m):{0}", deep_h);
             label10.Text = string.Format("坡比系数:{0}", soil_n);
         }
